@@ -10,7 +10,7 @@ function App() {
         Products
       </h1>
       <Routes>
-        <Route path="/products" element={<Product />} />
+        <Route index element={<Product />} />
         <Route path="/SinglepageData/:id" element={<SinglepageData />} />
       </Routes>
     </>
